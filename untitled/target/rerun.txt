@@ -1,0 +1,7 @@
+file:src/main/resources/features/different_Categories.feature:4
+file:src/main/resources/features/AddWishlistcart.feature:5
+file:src/main/resources/features/comparecart.feature:5
+file:src/main/resources/features/Search.feature:9
+file:src/main/resources/features/Register.feature:4
+file:src/main/resources/features/successfullOrder.feature:5
+file:src/main/resources/features/Shoppingcart.feature:4
