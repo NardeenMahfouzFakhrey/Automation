@@ -2,7 +2,7 @@
 Feature: RestPassword | users could use Rest password functionality
 
   Scenario: users could use Rest password with vaild email
-    Given user go to Rest page
-    When user rest with valid email
-    And user press on Recover button
-    Then user rest password successfully
+    Given go to Rest page
+    When rest with valid email
+    And press on Recover button
+    Then rest password successfully

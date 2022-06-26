@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Company.LoginPage;
+import Pages.LoginPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,14 +10,14 @@ public class loginStepTest {
     LoginPage loginPage;
     @Given("user go to login page")
     public void go_to_login_page()  {
-        loginPage = mainPage.homepage.TologinPage();
+        loginPage = mainPage.homepage.loginPage1();
        }
 
     @When("user login with valid email and password")
     public void valid_username_password()
     {
-        String email= registerTest.usernEmail;
-        String password= registerTest.password;
+        String email= "nardeenmahfouz44@gmail.com";
+        String password= "Pass@1234";
         loginPage.UserLogin(email,password);
 
     }

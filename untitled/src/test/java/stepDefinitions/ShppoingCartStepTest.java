@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Company.ShoppingCart;
+import Pages.ShoppingCart;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,14 +21,6 @@ public class ShppoingCartStepTest {
     public void assert_shopping_cart_have_two_product2() {
         Assert.assertEquals(shoppingCartPage.addToTheCart(),"The product has been added to your shopping cart");
         System.out.println("Nardeen-------Frist product ----"+shoppingCartPage.addToTheCart());
-    }
-    @And("second products to Shopping cart")
-    public void user_add_scoend_products_to_shopping_cart() {
-        shoppingCartPage.addSecondProductTpShoppingCart();
-    }
-    @Then("shopping cart have Second product")
-    public void assert_shopping_cart_have_two_product() {
-        Assert.assertEquals(shoppingCartPage.addToTheCart(),"The product has been added to your shopping cart");
-        System.out.println("Nardeen-------Sceond product ----"+shoppingCartPage.addToTheCart());
+
     }
 }

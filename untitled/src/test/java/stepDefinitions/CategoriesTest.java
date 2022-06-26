@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Company.Categories;
+import Pages.Categories;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,19 +8,23 @@ import io.cucumber.java.en.When;
 public class CategoriesTest {
 
     Categories categoriesPage= mainPage.homepage.CategoriesPage1();
-    @Given("home page")
+    @Given("Logged user in home page")
     public void logged_user_in_home_page() {
 
     }
-    @When("determine to Categories and Hover to sub_Categories")
-    public void user_detierment_to_categories_and_hover_to_sub_categories() {
+    @When("user go Categories and to sub_Categories")
+    public void user_go_Categories_and_to_sub_Categories() {
         categoriesPage.selectSubCategory();
         categoriesPage.selectCategoryBook();
+
+
     }
-    @Then("1successfully")
+    @Then("Click on sub categories successfully")
     public void click_on_sub_categories_successfully() {
 
-        System.out.println("successfully");
+        System.out.println("successfylly cat");
 
     }
+
 }
+

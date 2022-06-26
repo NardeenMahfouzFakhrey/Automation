@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Company.HomePage;
+import Pages.HomePage;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
 import io.github.bonigarcia.wdm.WebDriverManager;

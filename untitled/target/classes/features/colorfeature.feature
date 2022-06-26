@@ -1,4 +1,4 @@
-@TEST
+@Test
 Feature: colorfeature | filter with color
 
   Scenario: user could filter with color

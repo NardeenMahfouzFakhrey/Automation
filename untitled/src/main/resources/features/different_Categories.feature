@@ -1,7 +1,8 @@
 @TEST
-Feature: to select different Categories |  user select different Categories
+Feature: different_Categories |  Logged user could select different Categories
 
-  Scenario:  select different Categories
-    Given   home page
-    When determine to Categories and Hover to sub_Categories
-    Then  1successfully
+
+  Scenario: user could select different Categories
+    Given  Logged user in home page
+    When user go Categories and to sub_Categories
+    Then Click on sub categories successfully

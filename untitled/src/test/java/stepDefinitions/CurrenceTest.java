@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import Company.Currency;
+import Pages.Currency;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,7 +10,7 @@ public class CurrenceTest {
     Currency currencePage;
     @Given("home page1")
     public void user_in_home_page() {
-        currencePage = mainPage.homepage.currencePage();
+        currencePage = mainPage.homepage.currencePage1();
     }
 
     @When("determine to Euro")

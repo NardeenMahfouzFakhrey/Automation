@@ -1,13 +1,13 @@
 package stepDefinitions;
 
-import Company.Checkout;
+import Pages.Checkout;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
 public class CreateOrderTest {
-    Checkout checkOutPage= mainPage.homepage.CheckOutPage();
+    Checkout checkOutPage= mainPage.homepage.CheckOutPage1();
     @Given("User Go to Shopping cart")
     public void user_got_to_shopping_cart() {
         checkOutPage.GoToCart();

@@ -1,5 +1,5 @@
 package stepDefinitions;
-import Company.CompareListCart;
+import Pages.CompareListCart;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 
 public class compareCartTest {
-    CompareListCart compareListCartPage= mainPage.homepage.CompareListCartPage();
+    CompareListCart compareListCartPage= mainPage.homepage.CompareListCartPage1();
     @Given("different products to compare cart")
     public void logged_user_could_add_different_products_to_compare_cart() {
 

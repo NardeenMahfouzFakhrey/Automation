@@ -1,13 +1,13 @@
 package stepDefinitions;
 
-import Company.ProductTAG;
+import Pages.ProductTAG;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class ProductTAGTest {
-    ProductTAG producTag = mainPage.homepage.ProducTag();
+    ProductTAG producTag = mainPage.homepage.ProducTag1();
     @Given("Any Category to select Popular tags")
     public void logged_user_in_any_category_to_select_popular_tags() {
         producTag.selectCategory();
